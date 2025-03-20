@@ -1,0 +1,107 @@
+.section3 p{
+  margin-bottom: 3%;
+}
+.section1-hold{
+  padding: 5%;
+}
+ 
+  .section1-BG{
+    background: linear-gradient(rgba(134, 133, 133, 0.7), rgba(50, 50, 50, 0.8)),url("assets/section1Banner.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 18px;
+   
+  }
+  .section1-bt{
+    min-width: 250px;   
+    border-radius: 29px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 3%;
+  }
+
+
+
+.breadcrumb {
+    --bs-breadcrumb-divider: '>';
+    --bs-breadcrumb-divider-color: white; /* Makes the divider white */
+    font-size: 16px; /* Sets font size */
+    color: white; /* Ensures text is also white */
+}
+/* section 2*/
+.section2-para{
+    max-width: 600px;
+}
+
+.text-underline{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-position:under;
+}
+/* section 3 */
+.section3-p{
+    max-width: 151px;
+    padding: 1%;
+    border-radius: 7px;
+}
+
+.img-hover{
+  position: absolute;
+display: none;
+  transform: translateX(17%);
+ 
+}
+.img-content{
+  margin-bottom: 5%;
+}
+.img-content :hover .img-hover{
+  display: flex;
+  flex-direction: column;
+  bottom: 3%;
+  transform: translateX(6%);
+  width: 90%;
+  padding-top: 10%;
+}
+.cc{
+  max-width: 290px;
+  padding: 10%;
+}
+
+
+footer{
+  margin-top: 3%;
+}
+.foot-line1{
+  border-left: 2px solid white;
+  height: 30px;
+
+}
+
+/* large screen */
+@media (max-width: 1024px) {
+
+  
+  }
+  /* Adjust for Small Screens (Mobiles) */
+  @media (max-width: 768px) {
+    .section1-BG{
+      background: linear-gradient(rgba(134, 133, 133, 0.7), rgba(50, 50, 50, 0.8)),url("assets/image.png");
+
+    }
+    
+  
+  }
+  /* extra small screen */
+  @media (max-width: 480px) {
+    .section1-BG{
+      background: linear-gradient(rgba(134, 133, 133, 0.7), rgba(50, 50, 50, 0.8)),url("assets/image.png");
+      background-size:cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      border-radius: 18px;
+     
+    }
+  }
